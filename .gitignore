@@ -1,0 +1,4 @@
+template
+compile_commands.json
+obj
+.cache
