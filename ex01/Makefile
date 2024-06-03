@@ -6,7 +6,7 @@
 #    By: sbouheni <sbouheni@student.42mulhouse.fr>  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/31 17:37:49 by sbouheni          #+#    #+#              #
-#    Updated: 2024/05/31 17:42:32 by sbouheni         ###   ########.fr        #
+#    Updated: 2024/05/31 20:58:48 by sbouheni         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,6 +20,7 @@ SRCS_DIR				=	source/
 OBJ_DIR					=	obj/
 
 SRCS					=	main.cpp											\
+							Span.cpp
 
 OBJS        			=	$(addprefix $(OBJ_DIR), $(SRCS:.cpp=.o))
 
